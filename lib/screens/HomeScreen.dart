@@ -94,6 +94,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   TextField(
                     controller: name_controllers,
                     decoration: InputDecoration(hintText: "name"),
+                    textInputAction: TextInputAction.next,
                   ),
                   SizedBox(
                     height: 10,
@@ -102,6 +103,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     controller: quantity_controllers,
                     keyboardType: TextInputType.number,
                     decoration: InputDecoration(hintText: "Quantity"),
+                    textInputAction: TextInputAction.next,
                   ),
                   SizedBox(
                     height: 5,
