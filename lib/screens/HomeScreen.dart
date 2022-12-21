@@ -106,7 +106,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     textInputAction: TextInputAction.next,
                   ),
                   SizedBox(
-                    height: 5,
+                    height: 10,
                   ),
                   ElevatedButton(
                       onPressed: () async {
@@ -128,6 +128,9 @@ class _HomeScreenState extends State<HomeScreen> {
                         Navigator.of(context).pop();
                       },
                       child: Text(itemKey == null ? 'create new' : 'update')),
+                  SizedBox(
+                    height: 10,
+                  )
                 ],
               ),
             ));
